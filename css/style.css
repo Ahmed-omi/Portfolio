@@ -1,0 +1,144 @@
+html {
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: lightblue;
+
+}
+.bg-black {
+	background-color: black;
+
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.font-div {
+	width: 30%;
+}
+
+@media only screen and (min-width: 1198px){
+	.font-div {
+		padding: 42.5px 0px ! important ;
+	}
+}
+
+
+a{
+	text-decoration: none;
+
+
+}
+
+
+.categories{
+	width: max-content;
+	margin: 25px;
+	border: 1px solid #184d47;
+	border-radius: 0 0 50px 50px;
+	display: inline-block;
+}
+
+
+.image-title {
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+
+.item-image {
+	justify-content: center;
+	height: 75px;
+	width: 75px;
+	border-radius: 0 50px 50px 50px;
+	padding: 10px;
+}
+
+.categories:hover, .items:hover {
+	box-shadow: 0 0 10px 3px #184d47;
+
+}
+
+.menu-ul {
+	margin: 0;
+	padding:0;
+	display: inline;
+}
+
+.menu {
+	background: #184d47;
+	text-align: center;
+
+}
+#sticky {
+	position:fixed;
+ top:0%;
+
+
+	width: 70%;
+
+}
+
+.menu-ul li {
+	font-size: 17px;
+	list-style: none;
+	display: inline-block;
+	padding: 25px 25px 26px 25px;
+}
+
+.a-menu{
+	text-decoration: none;
+	color: white;
+
+}
+
+
+.menu-ul li:hover {
+	background: #5b8c5a;
+	}
+
+	button{
+			background: transparent;
+	border: none;
+	outline: none;
+	text-align: center;
+	}
+
+
+	.container, .deals-container  {
+
+	margin: 0 0 0 5%;
+	width: 95%;
+
+}
+.container1{
+text-align: center;
+}
+
+.heading{
+	width:50%;
+	background-color: green;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid blue;
+	border-radius: 50px;
+
+}
+
+
+.border{
+	text-align: center;
+	justify-content: center;
+
+}
+
+
+header{
+	padding-top: 5%;
+
+
+}
